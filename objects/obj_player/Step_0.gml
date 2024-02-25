@@ -7,6 +7,9 @@ var _vkeys = -keyboard_check(obj_global.key_up) + keyboard_check(obj_global.key_
 _hspd = _hkeys * move_speed
 _vspd = _vkeys * move_speed
 
+_hspd = _hspd * (actual_state != STATE.DEAD)
+_vspd = _vspd * (actual_state != STATE.DEAD)
+
 x += _hspd
 y += _vspd
 
@@ -14,4 +17,10 @@ y += _vspd
 if (actual_exp >= next_level) {
 	actual_level++
 	next_level = get_next_level()
-}	
+}
+
+// STATE MANAGEMENT
+actual_state = hp > 0 ? STATE.ALIVE : STATE.DEAD
+
+// CLAMP HP
+hp = max(hp, 0)
