@@ -23,4 +23,4 @@ if (actual_exp >= next_level) {
 actual_state = hp > 0 ? STATE.ALIVE : STATE.DEAD
 
 // CLAMP HP
-hp = max(hp, 0)
+hp = clamp(hp, 0, max_hp) 

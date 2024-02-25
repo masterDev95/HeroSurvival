@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "get_next_level",
+  "name": "heal",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

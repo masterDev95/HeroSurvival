@@ -13,6 +13,7 @@ var _text_list = [
 	"Etat: " + _player_state,
 	"",
 	"HP: " + string(obj_player.hp),
+	"Argent: " + string(obj_global.money),
 ]
 
 for (var _i = 0; _i < array_length(_text_list); _i++) {
@@ -20,3 +21,16 @@ for (var _i = 0; _i < array_length(_text_list); _i++) {
     draw_text(_x_draw_text_start, _y, _text_list[_i])
     _actual_line++
 }
+
+var _x = view_get_wport(0)
+
+draw_sprite(spr_d_pad, 0, _x, 0)
+
+if keyboard_check(obj_global.key_up)
+	draw_sprite(spr_d_pad, 1, _x, 0)
+if keyboard_check(obj_global.key_down)
+	draw_sprite(spr_d_pad, 2, _x, 0)
+if keyboard_check(obj_global.key_left)
+	draw_sprite(spr_d_pad, 3, _x, 0)
+if keyboard_check(obj_global.key_right)
+	draw_sprite(spr_d_pad, 4, _x, 0)

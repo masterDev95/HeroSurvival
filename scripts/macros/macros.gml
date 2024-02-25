@@ -5,4 +5,5 @@
 
 // DEBUG MACROS
 #macro EXP_ADD_DEBUG 5
-#macro DEBUG_DMG 7.5
+#macro DEBUG_DMG 7
+#macro DEBUG_HEAL 15

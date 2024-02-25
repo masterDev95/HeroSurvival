@@ -1,5 +1,8 @@
 if keyboard_check(key_level_up_debug)
 	add_exp_debug()
-
 if keyboard_check_pressed(key_hurt)
 	hurt(DEBUG_DMG)
+if keyboard_check_pressed(key_heal)
+	heal(DEBUG_HEAL)
+if keyboard_check_pressed(key_restart)
+	game_restart()
