@@ -17,6 +17,9 @@
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_debug","order":2,"path":"objects/obj_debug/obj_debug.yy",},
     {"name":"obj_global","order":1,"path":"objects/obj_global/obj_global.yy",},
+    {"name":"add_exp_debug","order":2,"path":"scripts/add_exp_debug/add_exp_debug.yy",},
+    {"name":"get_next_level","order":1,"path":"scripts/get_next_level/get_next_level.yy",},
   ],
 }

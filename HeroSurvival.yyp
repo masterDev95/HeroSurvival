@@ -35,8 +35,12 @@
   },
   "resources": [
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
+    {"id":{"name":"obj_debug","path":"objects/obj_debug/obj_debug.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_global","path":"objects/obj_global/obj_global.yy",},},
+    {"id":{"name":"add_exp_debug","path":"scripts/add_exp_debug/add_exp_debug.yy",},},
+    {"id":{"name":"macros","path":"scripts/macros/macros.yy",},},
+    {"id":{"name":"get_next_level","path":"scripts/get_next_level/get_next_level.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
