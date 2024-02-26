@@ -7,3 +7,4 @@
 #macro EXP_ADD_DEBUG 5
 #macro DEBUG_DMG 7
 #macro DEBUG_HEAL 15
+#macro DISTANCE_LINE_DEBUG false
