@@ -24,3 +24,5 @@ actual_state = hp > 0 ? STATE.ALIVE : STATE.DEAD
 
 // CLAMP HP
 hp = clamp(hp, 0, max_hp) 
+
+
