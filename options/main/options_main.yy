@@ -10,7 +10,7 @@
   "option_gameguid": "a85c8746-8d6e-43af-b411-e32340cb20e0",
   "option_gameid": "0",
   "option_mips_for_3d_textures": false,
-  "option_sci_usesci": true,
+  "option_sci_usesci": false,
   "option_spine_licence": false,
   "option_steam_app_id": "0",
   "option_template_description": null,
