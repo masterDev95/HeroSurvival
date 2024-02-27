@@ -49,8 +49,6 @@
     {"id":{"name":"hurt","path":"scripts/hurt/hurt.yy",},},
     {"id":{"name":"obj_global","path":"objects/obj_global/obj_global.yy",},},
     {"id":{"name":"spr_coins","path":"sprites/spr_coins/spr_coins.yy",},},
-    {"id":{"name":"spr_ennemy","path":"sprites/spr_ennemy/spr_ennemy.yy",},},
-    {"id":{"name":"obj_ennemy_default","path":"objects/obj_ennemy_default/obj_ennemy_default.yy",},},
     {"id":{"name":"obj_coins","path":"objects/obj_coins/obj_coins.yy",},},
     {"id":{"name":"add_exp_debug","path":"scripts/add_exp_debug/add_exp_debug.yy",},},
     {"id":{"name":"macros","path":"scripts/macros/macros.yy",},},
