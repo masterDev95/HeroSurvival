@@ -1,2 +1,1 @@
-shuriken_creation_counter = 0;
-shuriken_creation_interval = 5;
+damage = 12.5

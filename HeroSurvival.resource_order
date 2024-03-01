@@ -16,6 +16,7 @@
     {"name":"hurt","order":2,"path":"scripts/hurt/hurt.yy",},
     {"name":"obj_global","order":1,"path":"objects/obj_global/obj_global.yy",},
     {"name":"obj_coins","order":2,"path":"objects/obj_coins/obj_coins.yy",},
+    {"name":"spr_ninja","order":1,"path":"sprites/spr_ninja/spr_ninja.yy",},
     {"name":"obj_ennemy","order":3,"path":"objects/obj_ennemy/obj_ennemy.yy",},
   ],
 }
