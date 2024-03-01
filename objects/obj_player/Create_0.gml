@@ -13,6 +13,7 @@ actual_state = STATE.ALIVE
 
 nbr_ennemies = 10
 
+
 // Apparition des ennemis autour du personnage principal
 for (var i = 0; i < nbr_ennemies; i++) {
     var distance = random_range(1000, 1000)
@@ -23,7 +24,5 @@ for (var i = 0; i < nbr_ennemies; i++) {
 }
 
 // Tire des shurikens
-
 alartime_1 = 120
 alarm[1] = alartime_1
-

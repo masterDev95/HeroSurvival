@@ -4,3 +4,4 @@ key_left = ord("Q")
 key_right = ord("D")
 
 money = 0
+food = 0

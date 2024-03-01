@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Drop",
+    "path": "folders/Objects/Item/Drop.yy",
   },
   "parentObjectId": null,
   "persistent": false,
