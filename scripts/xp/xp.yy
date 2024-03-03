@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "hurt",
+  "name": "xp",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

@@ -1,8 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_coins",
+  "name": "obj_experience",
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
@@ -28,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_coins",
-    "path": "sprites/spr_coins/spr_coins.yy",
+    "name": "spr_experience",
+    "path": "sprites/spr_experience/spr_experience.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -1,4 +1,4 @@
-if (collision_circle(x, y, 45, obj_player, false, true)) {
+ if (collision_circle(x, y, 45, obj_player, false, true)) {
     obj_player.hp -= damage
 
     obj_player.speed = 0
