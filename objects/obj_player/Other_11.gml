@@ -1,11 +1,11 @@
-var shuriken = instance_create_layer(x, y, "Instances", obj_weapon_shuriken)
+var _shuriken = instance_create_layer(x, y, "Instances", obj_weapon_shuriken)
 
-var nearest_enemy = instance_nearest(x, y, obj_ennemy)
+var _nearest_enemy = instance_nearest(x, y, obj_ennemy)
 
-if (nearest_enemy != noone) {
-    shuriken.direction = point_direction(x, y, nearest_enemy.x, nearest_enemy.y)
+if (_nearest_enemy != noone) {
+    _shuriken.direction = point_direction(x, y, _nearest_enemy.x, _nearest_enemy.y)
 } else {
-    shuriken.direction = random_range(0, 360)
+    _shuriken.direction = random_range(0, 360)
 }
 
-shuriken.speed = 4
+_shuriken.speed = 4

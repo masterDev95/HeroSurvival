@@ -1,9 +1,9 @@
-var enemy = instance_place(x, y, obj_ennemy)
-if (enemy != noone) {
-    enemy.hp -= damage
+var _enemy = instance_place(x, y, obj_ennemy)
+if (_enemy != noone) {
+    _enemy.hp -= damage
 	
-    if (enemy.hp <= 0) {
-        instance_destroy(enemy)
+    if (_enemy.hp <= 0) {
+        instance_destroy(_enemy)
     }
     
     instance_destroy()
