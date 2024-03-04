@@ -11,3 +11,5 @@ font_enable_effects(fnt_damage, true,  {
     outlineDistance: 2,
     outlineColour: c_black,
 })
+
+food = 0

@@ -23,3 +23,7 @@ for (var _i = 0; _i < nbr_ennemies; _i++) {
     var _spawn_y = y + lengthdir_y(_distance, _angle)
     instance_create_layer(_spawn_x, _spawn_y, layer, obj_ennemy)
 }
+
+// Tire des shurikens
+alartime_1 = 120
+alarm[1] = alartime_1
