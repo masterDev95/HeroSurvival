@@ -1,5 +1,5 @@
-/// @function update_camera_position
-/// @description Updates the camera position based on the player's current position
+/// @function 		update_camera_position()
+/// @description	Updates the camera position based on the player's current position
 
 function update_camera_position(){
 	// Calculate view width and height
