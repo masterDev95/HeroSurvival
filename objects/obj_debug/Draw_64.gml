@@ -1,8 +1,12 @@
+draw_set_font(fnt_debug)
+draw_set_color(c_white)
+draw_set_halign(fa_left)
+
 // Define the starting positions for drawing text and the initial line number
 var _x_draw_text_start = 8
 var _y_draw_text_start = 16
 var _actual_line = 1
-var _line_height = 4
+var _line_height = 12
 
 // Check the player's state (alive or dead) and convert it to a string
 var _player_state = obj_player.actual_state == STATE.ALIVE ? "En vie" : "Mort"

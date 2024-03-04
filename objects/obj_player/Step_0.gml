@@ -4,6 +4,7 @@ var _hspd, _vspd
 var _hkeys = -keyboard_check(obj_global.key_left) + keyboard_check(obj_global.key_right)
 var _vkeys = -keyboard_check(obj_global.key_up) + keyboard_check(obj_global.key_down)
 
+// Applying speed only if the actual state is not dead
 _hspd = _hkeys * move_speed
 _vspd = _vkeys * move_speed
 

@@ -1,0 +1,6 @@
+draw_set_alpha(alpha)
+draw_set_font(fnt_damage)
+draw_set_color(color)
+draw_set_halign(fa_center)
+draw_text(x, y, string_prefix + string(damage_amount))
+draw_set_alpha(1)
