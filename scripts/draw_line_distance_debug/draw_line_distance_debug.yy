@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "draw_line_distance_debug",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "debug",
-    "path": "folders/Scripts/debug.yy",
+  "$GMScript":"",
+  "%Name":"draw_line_distance_debug",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_line_distance_debug",
+  "parent":{
+    "name":"debug",
+    "path":"folders/Scripts/debug.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
