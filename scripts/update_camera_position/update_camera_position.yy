@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"update_camera_position",
   "isCompatibility":false,
   "isDnD":false,

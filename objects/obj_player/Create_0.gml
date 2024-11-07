@@ -21,9 +21,9 @@ for (var _i = 0; _i < nbr_ennemies; _i++) {
     var _angle = random_range(0, 360)
     var _spawn_x = x + lengthdir_x(_distance, _angle)
     var _spawn_y = y + lengthdir_y(_distance, _angle)
-    instance_create_layer(_spawn_x, _spawn_y, layer, obj_ennemy)
+    instance_create_layer(_spawn_x, _spawn_y, layer, obj_enemy)
 }
 
 // Tire des shurikens
-alartime_1 = 120
-alarm[1] = alartime_1
+alartime_0 = 120
+alarm[0] = alartime_0
