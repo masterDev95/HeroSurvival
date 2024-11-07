@@ -20,8 +20,12 @@ if (actual_exp >= next_level) {
 	next_level = get_next_level()
 }
 
+// CLAMP HP
+hp = clamp(hp, 0, max_hp)
+
 // STATE MANAGEMENT
 actual_state = hp > 0 ? STATE.ALIVE : STATE.DEAD
 
-// CLAMP HP
-hp = clamp(hp, 0, max_hp) 
+if (actual_state == STATE.DEAD) {
+	instance_create_layer(0, 0, "UI", obj_deathscreen)
+}
