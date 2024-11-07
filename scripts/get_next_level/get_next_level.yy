@@ -1,12 +1,12 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"get_next_level",
   "isCompatibility":false,
   "isDnD":false,
   "name":"get_next_level",
   "parent":{
-    "name":"player realated",
-    "path":"folders/Scripts/player realated.yy",
+    "name":"player related",
+    "path":"folders/Scripts/player related.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
