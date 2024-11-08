@@ -15,7 +15,7 @@ if (obj_player.actual_state == STATE.DEAD) {
     var _text_x = _view_x + _view_width / 2;
     var _text_y = _view_y + _view_height / 2 - 50;
 
-    // Dessiner le texte "Vous êtes mort"
+    // Dessiner le texte "You are dead"
     draw_text_color(_text_x - 50, _text_y, "You are dead", c_red, c_red, c_red, c_red, 0.75);
 
     // Calculer la position des boutons
@@ -32,23 +32,26 @@ if (obj_player.actual_state == STATE.DEAD) {
     // Dessiner le bouton Quitter
     draw_rectangle_color(_restart_x, _quit_y, _restart_x + _btn_width, _quit_y + _btn_height, c_white, c_white, c_white, c_white, false);
     draw_text_color(_restart_x + 70, _quit_y + 10, "Leave", c_red, c_red, c_red, c_red, 0.75);
-}
 
-// Vérifier si la souris clique sur le bouton "Rematch"
-if (mouse_check_button_pressed(mb_left)) {
-    // Vérifier si la souris est dans la zone du bouton "Rematch"
-    if (mouse_x >= _restart_x && mouse_x <= _restart_x + _btn_width && mouse_y >= _restart_y && mouse_y <= _restart_y + _btn_height) {
-        // Redémarrer la partie ici
+    // Obtenir les coordonnées de la souris en fonction de la vue
+    var _mouse_x_view = device_mouse_x_to_gui(0);
+    var _mouse_y_view = device_mouse_y_to_gui(0);
 
-        room_goto(Room1);  // Revenir au début de la room (ou charger une autre room de début de partie)
+    // Vérifier si la souris clique sur le bouton "Rematch"
+    if (mouse_check_button_pressed(mb_left)) {
+        if (_mouse_x_view >= _restart_x && _mouse_x_view <= _restart_x + _btn_width &&
+            _mouse_y_view >= _restart_y && _mouse_y_view <= _restart_y + _btn_height) {
+            // Redémarrer la partie
+            room_goto(Room1);
+        }
     }
-}
 
-// Vérifier si la souris clique sur le bouton "Leave" (Quitter)
-if (mouse_check_button_pressed(mb_left)) {
-    // Vérifier si la souris est dans la zone du bouton "Leave"
-    if (mouse_x >= _restart_x && mouse_x <= _restart_x + _btn_width && mouse_y >= _quit_y && mouse_y <= _quit_y + _btn_height) {
-        // Quitter le jeu
-        game_end();
+    // Vérifier si la souris clique sur le bouton "Leave"
+    if (mouse_check_button_pressed(mb_left)) {
+        if (_mouse_x_view >= _restart_x && _mouse_x_view <= _restart_x + _btn_width &&
+            _mouse_y_view >= _quit_y && _mouse_y_view <= _quit_y + _btn_height) {
+            // Quitter le jeu
+            game_end();
+        }
     }
 }
