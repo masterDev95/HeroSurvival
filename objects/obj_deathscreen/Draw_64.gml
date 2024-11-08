@@ -1,10 +1,10 @@
 // Vérifier si le joueur est mort
 if (obj_player.actual_state == STATE.DEAD) {
     // Utiliser les coordonnées et dimensions de la vue
-    var _view_x = view_xview[0];  
-    var _view_y = view_yview[0];  
-    var _view_width = view_wview[0];  
-    var _view_height = view_hview[0];  
+    var _view_x = view_get_xport(0);
+    var _view_y = view_get_yport(0);
+    var _view_width = view_get_wport(0);
+    var _view_height = view_get_hport(0);
 
     // Dessiner un fond semi-transparent
     draw_set_alpha(0.75);
