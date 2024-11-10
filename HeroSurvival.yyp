@@ -60,6 +60,7 @@
     {"id":{"name":"obj_healthbar","path":"objects/obj_healthbar/obj_healthbar.yy",},},
     {"id":{"name":"obj_hp_update","path":"objects/obj_hp_update/obj_hp_update.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},},
     {"id":{"name":"obj_weapon_shuriken","path":"objects/obj_weapon_shuriken/obj_weapon_shuriken.yy",},},
     {"id":{"name":"obj_xpbar","path":"objects/obj_xpbar/obj_xpbar.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},

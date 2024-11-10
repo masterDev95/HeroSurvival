@@ -21,6 +21,7 @@
     {"name":"obj_food","order":1,"path":"objects/obj_food/obj_food.yy",},
     {"name":"obj_global","order":1,"path":"objects/obj_global/obj_global.yy",},
     {"name":"obj_hp_update","order":6,"path":"objects/obj_hp_update/obj_hp_update.yy",},
+    {"name":"obj_timer","order":2,"path":"objects/obj_timer/obj_timer.yy",},
     {"name":"obj_xpbar","order":1,"path":"objects/obj_xpbar/obj_xpbar.yy",},
     {"name":"display_hp_update","order":9,"path":"scripts/display_hp_update/display_hp_update.yy",},
     {"name":"draw_line_distance_debug","order":1,"path":"scripts/draw_line_distance_debug/draw_line_distance_debug.yy",},
