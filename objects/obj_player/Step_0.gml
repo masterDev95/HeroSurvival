@@ -27,5 +27,5 @@ hp = clamp(hp, 0, max_hp)
 actual_state = hp > 0 ? STATE.ALIVE : STATE.DEAD
 
 if (actual_state == STATE.DEAD) {
-	instance_create_layer(0, 0, "UI", obj_deathscreen)
+	instance_activate_object(obj_deathscreen)
 }
