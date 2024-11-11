@@ -1,6 +1,6 @@
 // Set movement direction towards player
 var _dir = point_direction(x, y, player.x, player.y);
-motion_set(_dir, speed);
+motion_set(_dir, speed * (obj_player.actual_state == STATE.ALIVE));
 
 // Check for collision with obj_enemy
 var _other = instance_place(x, y, obj_enemy);
@@ -22,7 +22,7 @@ if (_other != noone) {
 }
 
 // Set depth based on y position
-depth = -y;
+depth = -y + room_height;
 
 // Destroy instance if health is zero or less
 if (hp <= 0) {

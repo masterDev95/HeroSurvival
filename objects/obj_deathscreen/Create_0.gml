@@ -1,6 +1,15 @@
-/// @description Insert description here
-// You can write your code in this editor
+instance_deactivate_object(self)
 
-width = view_get_wport(0);
-height = view_get_hport(0);
-alpha = 0.75;
+enum CHOICE {
+	RETRY,
+	LEAVE,
+}
+
+actual_choice = CHOICE.RETRY
+
+// Create a dark surface
+dark_surface = surface_create(window_get_width(), window_get_height())
+dark_surface_opacity = 0
+dark_surface_max_opacity = .8
+
+lerp_speed = .1

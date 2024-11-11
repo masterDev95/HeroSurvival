@@ -9,7 +9,9 @@
     {"name":"HUD","order":1,"path":"folders/Objects/UI/HUD.yy",},
     {"name":"Weapon","order":9,"path":"folders/Objects/Weapon.yy",},
     {"name":"debug","order":1,"path":"folders/Scripts/debug.yy",},
+    {"name":"helper","order":11,"path":"folders/Scripts/helper.yy",},
     {"name":"player related","order":2,"path":"folders/Scripts/player related.yy",},
+    {"name":"deathscreen","order":8,"path":"folders/Sprites/deathscreen.yy",},
     {"name":"spr_enemy","order":3,"path":"folders/Sprites/spr_enemy.yy",},
     {"name":"spr_hero","order":4,"path":"folders/Sprites/spr_hero.yy",},
     {"name":"spr_item","order":5,"path":"folders/Sprites/spr_item.yy",},
@@ -17,6 +19,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"fnt_debug","order":1,"path":"fonts/fnt_debug/fnt_debug.yy",},
+    {"name":"fnt_gameover_choice","order":3,"path":"fonts/fnt_gameover_choice/fnt_gameover_choice.yy",},
     {"name":"obj_experience","order":2,"path":"objects/obj_experience/obj_experience.yy",},
     {"name":"obj_food","order":1,"path":"objects/obj_food/obj_food.yy",},
     {"name":"obj_global","order":1,"path":"objects/obj_global/obj_global.yy",},
@@ -31,7 +34,9 @@
     {"name":"xp","order":3,"path":"scripts/xp/xp.yy",},
     {"name":"spr_d_pad","order":1,"path":"sprites/spr_d_pad/spr_d_pad.yy",},
     {"name":"spr_experience","order":2,"path":"sprites/spr_experience/spr_experience.yy",},
+    {"name":"spr_fade_fx","order":1,"path":"sprites/spr_fade_fx/spr_fade_fx.yy",},
     {"name":"spr_food","order":1,"path":"sprites/spr_food/spr_food.yy",},
     {"name":"spr_ninja","order":1,"path":"sprites/spr_ninja/spr_ninja.yy",},
+    {"name":"spr_you_died","order":2,"path":"sprites/spr_you_died/spr_you_died.yy",},
   ],
 }
